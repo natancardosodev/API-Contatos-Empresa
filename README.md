@@ -4,6 +4,7 @@ Projeto para disciplina Aplicações Avançadas Web (P5). Com a arquitetura REST
 ## Inserir Cliente
 Método HTTP: POST | Contexto: /api | Recurso: /clientes 
 Identificador de recurso: http://localhost:8090/api/clientes
+
 **Representação de entrada (JSON):** 
 
     {
@@ -23,6 +24,7 @@ Identificador de recurso: http://localhost:8090/api/clientes
 ## Atualizar Cliente
 Método HTTP: PUT | Contexto: /api | Recurso: /clientes 
 Identificador de recurso: http://localhost:8090/api/clientes
+
 **Representação de entrada (JSON):** 
 
     {
@@ -43,8 +45,10 @@ Identificador de recurso: http://localhost:8090/api/clientes
 ## Listar Clientes
 Método HTTP: GET | Contexto: /api | Recurso: /clientes 
 Identificador de recurso: http://localhost:8090/api/clientes
+
 **Representação de entrada (JSON):**  
 Nulo
+
 **Representação de resposta (JSON):** 
 
     [
@@ -60,6 +64,7 @@ Nulo
 ## Excluir Cliente (id na representação - json)
 Método HTTP: DELETE | Contexto: /api | Recurso: /clientes 
 Identificador de recurso: http://localhost:8090/api/clientes
+
 **Representação de entrada (JSON):** 
 
     {
@@ -76,8 +81,10 @@ Identificador de recurso: http://localhost:8090/api/clientes
 ## Excluir Cliente (id no recurso)
 Método HTTP: DELETE | Contexto: /api | Recurso: /clientes | Parâmetro: 1
 Identificador de recurso: http://localhost:8090/api/clientes/1
+
 **Representação de entrada (JSON):** 
 Nulo
+
 **Representação de resposta (JSON):** 
 
     {
@@ -89,8 +96,10 @@ Nulo
 Método HTTP: DELETE | Contexto: /api | Recurso: /clientes | Parâmetro: João%20Diego%20Moura
 Identificador de recurso: http://localhost:8090/api/clientes/João%20Diego%20Moura
 *Observação:* Parâmetros com espaço em branco ao utilizar no recurso deve ser colocado %20, pois a URL não aceita espaço nulo e com isso deve ser inserido um código em ASCII equivalente.
+
 **Representação de entrada (JSON):** 
 Nulo
+
 **Representação de resposta (JSON):** 
 
     {
@@ -105,8 +114,10 @@ Nulo
 Método HTTP: DELETE | Contexto: /api | Recurso: /clientes/email | Parâmetro: joaodm@gmail.com
 Identificador de recurso: http://localhost:8090/api/clientes/email/joaodm@gmail.com
 *Observação:* Por já existir um identificador de recurso semelhante, foi necessário incluir a query '/email'.
+
 **Representação de entrada (JSON):** 
 Nulo
+
 **Representação de resposta (JSON):** 
 
     {
@@ -122,6 +133,7 @@ Nulo
 ## Inserir Fornecedor
 Método HTTP: POST | Contexto: /api | Recurso: /fornecedores
 Identificador de recurso: http://localhost:8090/api/fornecedores
+
 **Representação de entrada (JSON):** 
 
     {
