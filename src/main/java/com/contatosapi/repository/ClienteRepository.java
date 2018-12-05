@@ -19,6 +19,4 @@ public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 	
 	public Cliente findByEmail(String email);
 	
-	public void deleteById (Long id);
-
 }

@@ -19,6 +19,4 @@ public interface FornecedorRepository extends JpaRepository<Fornecedor, Long> {
 	
 	public Fornecedor findByEmail(String email);
 	
-	public void deleteById (Long id);
-
 }
