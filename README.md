@@ -143,9 +143,9 @@ Identificador de recurso: http://localhost:8090/api/fornecedores
 
 ### *Usando o Git Bash*
 - Navegue até o seu diretório de projetos de programação
-- Faça o clone do projeto para a sua máquina local: ```git clone https://github.com/natancardosodev/sd-admin-2.git``` 
+- Faça o clone do projeto para a sua máquina local: ```git clone https://github.com/natancardosodev/API-Contatos-Empresa.git``` 
 
-#### Usando a IDE
+### *Usando a IDE*
 Através do Spring Tool Suite, Eclipse com o plugin STS ou outra IDE Java:
 - Depois de importar o projeto deve atualizar as dependências do Maven clicando com o botão direito no projeto, buscando a opção ```Maven``` e clicar em ```Update Project```
 - Na janela aberta selecione o projeto e clique no checkbox ```Force Update of Snapshots/Releases``` 
